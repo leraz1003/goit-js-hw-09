@@ -1,0 +1,25 @@
+.gallery-image {
+  width: 360px;
+  height: 200px;
+}
+
+.gallery {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 1128px;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.gallery li a:hover img {
+  width: 376px;
+  height: 208px;
+  margin: -8px;
+  transition: width 300ms linear, height 300ms linear;
+}
